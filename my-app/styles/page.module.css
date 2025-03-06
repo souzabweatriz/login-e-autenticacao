@@ -1,0 +1,10 @@
+.image01{
+  height: 60%;
+  max-width: 90%;
+  opacity: 0.1;
+}
+
+.page{
+  display: flex;
+  justify-content: center;
+}
