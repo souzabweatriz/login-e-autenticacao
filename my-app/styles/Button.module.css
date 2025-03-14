@@ -6,3 +6,7 @@ height: 2rem;
 padding: 0 1rem;
 margin-top: 1rem;
 }
+
+.button:hover{
+    background-color: rgba(99, 193, 162, 0.679);
+}

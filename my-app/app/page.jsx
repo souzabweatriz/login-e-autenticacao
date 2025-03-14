@@ -11,6 +11,8 @@ export default function Home(){
     }, [router]);
 
     return(
-        <p>Redirecionando...</p>
+        <main className={styles.redirector}>
+            <p>Redirecionando...</p>
+        </main>
     )
-}
+};
