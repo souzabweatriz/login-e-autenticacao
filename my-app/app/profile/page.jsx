@@ -5,6 +5,8 @@ import Creator from "../../public/Creator.jpg";
 import github from "../../public/github.png"
 import linkedin from "../../public/linkedin.png"
 import instagram from "../../public/instagram.png"
+import Cards from "@/components/Cards";
+import javascript from "../../public/javascript.png"
 
 export default function Profile() {
     return (
@@ -22,8 +24,10 @@ export default function Profile() {
             <a href="https://github.com/souzabweatriz"> <Image className={styles.imagelink} src={github} alt="logo github" /></a>
             <a href="https://www.linkedin.com/in/ana-beatriz-de-souza-745b222b1/"><Image className={styles.imagelink} src={linkedin} alt="logo linkedin" /></a>
             <a href="https://www.instagram.com/souzabweatriz_/profilecard/?igsh=MWUzaHFrOTh5N2prZA=="><Image className={styles.imagelink} src={instagram} alt="logo instagram" /></a>
+                <h1></h1>
                 </div>
             </div>
+            <Cards icon={javascript} />
         </main>
     )
 };
