@@ -27,7 +27,7 @@ export default function Profile() {
                 <h1></h1>
                 </div>
             </div>
-            <Cards icon={javascript} />
+            <Cards icon={javascript} title={"JavaScript"} description={"JavaScript é uma linguagem de programação que permite criar páginas da web interativas"} />
         </main>
     )
 };
