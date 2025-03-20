@@ -12,7 +12,7 @@ export default function Profile() {
             <Header />
             <Image className={styles.image} src={Creator} alt="Foto da Criadora" />
             <div className={styles.container}>
-                <h1>Bem Vindo!</h1>
+                <h1 className={styles.title}>Bem Vindo!</h1>
                 <p className={styles.text}>
                     Oi! Eu sou a Ana Beatriz de Souza, tenho 17 anos e estou mergulhando no mundo da programação com o curso Técnico em Desenvolvimento de Sistemas no SENAI. Atualmente, estou no terceiro semestre, e essa aplicação é voltada para disciplina de front-end.
                     Este site é um projeto focado em login e autenticação, desenvolvido para aprimorar minhas habilidades no Front-End. Meu objetivo é criar um ambiente seguro e eficiente, permitindo que os usuários realizem login e cadastrem-se.

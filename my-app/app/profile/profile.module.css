@@ -9,11 +9,16 @@
     align-items: center;
     box-shadow: 4px 6px rgb(100, 145, 139);
     flex-direction: column;
+    margin: 3rem;
+}
+
+.title{
+    font-size: 2rem;
 }
 
 .text{
     text-align: justify;
-    padding: 1rem 9rem;
+    padding: 1rem 7rem;
 }
 
 .image{
