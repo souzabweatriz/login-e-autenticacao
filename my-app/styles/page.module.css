@@ -1,3 +1,39 @@
-.redirecionando{
-background-color: brown;
+.redirector {
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column
+}
+
+.text {
+    font-size: 1em;
+    color: #333;
+    opacity: 0;
+    animation: cair 2s forwards;
+}
+
+@keyframes cair {
+    0% {
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
+.text:hover{
+    color: rgb(8, 114, 114);
+}
+
+.gif {
+    width: 6rem;
+    height: 6rem;
 }

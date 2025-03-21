@@ -1,0 +1,22 @@
+.cards{
+    display: flex;
+    width: 50vh;
+    height: 40vh;
+    background-color: rgb(255, 255, 255);
+    border-radius: 2rem;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    box-shadow: 0 4px 11px rgb(136, 191, 183);
+}
+
+.img{
+    width: 5rem;
+    height: 5rem;
+}
+
+.description{
+    width: 20rem;
+    margin-top: 0.5rem;
+}

@@ -7,13 +7,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 4px 6px rgb(100, 145, 139);
+    box-shadow: 4px 6px 8px rgba(100, 145, 139, 0.641);
     flex-direction: column;
     margin: 3rem;
 }
 
 .title{
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .text{
@@ -45,4 +45,10 @@
 
 .imagelink:hover{
     transform: scale(1.2);
+}
+
+.allcard{
+    display: flex;
+    gap: 2rem;
+    margin: 2rem;
 }

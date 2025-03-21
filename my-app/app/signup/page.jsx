@@ -43,7 +43,7 @@ export default function Home() {
         <main className={styles.container}>
             <Header />
             <div className={styles.card}>
-                <h1 className={styles.title} >Login</h1>
+                <h1 className={styles.title} >Cadastre-se</h1>
                 <label className={styles.label} htmlFor="text">Nome Completo:</label>
                 <input className={styles.input} type="password" placeholder="ex. João da Silva" value={input3} onChange={(e) => setInput3(e.target.value)}/>
                 <label className={styles.label} htmlFor="text">Email:</label>
