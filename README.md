@@ -16,7 +16,8 @@
 
 ### Instale as dependências 🖥️
 
-#### `cd nome-do-app`
-#### `npm install`
-#### `npm run dev`
-
+```bash
+#### cd nome-do-app
+#### npm install
+#### npm run dev
+```
