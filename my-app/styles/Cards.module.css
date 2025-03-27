@@ -1,7 +1,7 @@
 .cards{
     display: flex;
-    width: 50vh;
-    height: 40vh;
+    width: 20rem;
+    height: 20rem;
     background-color: rgb(255, 255, 255);
     border-radius: 2rem;
     align-items: center;
@@ -17,6 +17,7 @@
 }
 
 .description{
-    width: 20rem;
+    padding: 1rem;
+    width: auto;
     margin-top: 0.5rem;
 }
