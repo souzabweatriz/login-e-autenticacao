@@ -1,6 +1,6 @@
 ## Página de LogIn, Registro e Perfil📱
 
-#### Este projeto foi desenvolvido como parte do curso técnico em Desenvolvimento de Sistemas do SENAI Valinhos, na disciplina de Back-End com o objetivo de aprimorar nossos conhecimentos em Front-End
+#### Este projeto foi desenvolvido como parte do curso técnico em Desenvolvimento de Sistemas do SENAI Valinhos, na disciplina de Front-end com o objetivo de aprimorar nossos conhecimentos 
 
 ## 📚 Descrição do Projeto
 
